@@ -15,7 +15,7 @@ const Header = () => {
               <ul className="flex items-center gap-6 text-sm">
                 <li>
                   <a
-                    className="text-gray-500 transition hover:text-gray-500/75"
+                    className="text-gray-900 transition hover:text-gray-500/75"
                     href="#"
                   >
                     {" "}
@@ -25,7 +25,7 @@ const Header = () => {
 
                 <li>
                   <a
-                    className="text-gray-500 transition hover:text-gray-500/75"
+                    className="text-gray-900 transition hover:text-gray-500/75"
                     href="#"
                   >
                     {" "}
@@ -35,7 +35,7 @@ const Header = () => {
 
                 <li>
                   <a
-                    className="text-gray-500 transition hover:text-gray-500/75"
+                    className="text-gray-900 transition hover:text-gray-500/75"
                     href="#"
                   >
                     {" "}
@@ -45,7 +45,7 @@ const Header = () => {
 
                 <li>
                   <a
-                    className="text-gray-500 transition hover:text-gray-500/75"
+                    className="text-gray-900 transition hover:text-gray-500/75"
                     href="#"
                   >
                     {" "}
