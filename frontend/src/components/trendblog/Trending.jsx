@@ -3,12 +3,12 @@ import Hero from './../../assets/ai.jpg'
 
 const Trending = () => {
   return (
-    <div className="group relative block max-w-4/6 h-auto shadow-xl rounded-2xl overflow-hidden sm:min-w-4/5 sm:max-h-2/4">
-      <a href="#" className=" bg-black">
+    <div className="">
+      <a href="#" className="group relative block h-auto max-w-4xl shadow-xl rounded-2xl overflow-hidden sm:min-w-4/5 sm:max-h-2/4 bg-black">
         <img
           alt=""
           src={Hero}
-          className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+          className="absolute inset-0 h-full w-full object-cover transition-opacity"
         />
 
         <div className="relative p-4 sm:p-6 lg:p-8">
