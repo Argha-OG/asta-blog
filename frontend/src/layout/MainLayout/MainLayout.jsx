@@ -8,7 +8,9 @@ function MainLayout({children}) {
   return (
     <>
       <Header />
-      <div className="container mx-auto p-4 sm:px-4">{children}</div>
+      <div className="max-w-6xl container mx-auto p-4 sm:px-6">
+        {children}
+      </div>
     </>
   );
 }

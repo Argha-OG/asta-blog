@@ -4,7 +4,7 @@ import Logo from './../../assets/logo.png'
 const Header = () => {
   return (
     <>
-      <header className="bg-white sticky top-0 shadow-sm">
+      <header className="bg-white sticky top-0 shadow-sm z-50">
         <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
           <a className="block text-black" href="#">
             <img src={Logo} alt="" className="w-32" />
